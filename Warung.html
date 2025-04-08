@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>Kasir Warung</h2>
+  <form id="formKasir">
+    <select id="barang" required>
+      <option value="">Pilih Barang</option>
+    </select>
+    <input type="number" id="jumlah" placeholder="Jumlah" required />
+    <div id="hargaSatuan">Harga: Rp0</div>
+    <div id="subtotal">Subtotal: Rp0</div>
+    <button type="submit">Tambah</button>
+  </form>
+
+  <h3>Daftar Belanja</h3>
+  <ul id="daftarBelanja"></ul>
+
+  <div class="total">
+    Total Bayar: <span id="totalHarga">Rp0</span>
+  </div>
+  <button id="resetBtn">Reset</button>
+</div>
